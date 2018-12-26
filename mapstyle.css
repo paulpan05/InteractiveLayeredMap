@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: calc(100% - 13px);
+    width: 100vw;
+}
+
+div.scrollmenu {
+  background: #727c87;
+  white-space: nowrap;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+div.scrollmenu a {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}

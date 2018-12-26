@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script src="config.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script id="googlescript" async defer></script>
+    <script>
+      document.getElementById('googlescript').src = 'https://maps.googleapis.com/maps/api/js?key=' + config.googleKey;
+    </script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+            integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+            crossorigin=""></script>
+    <script src='https://unpkg.com/leaflet.gridlayer.googlemutant@latest/Leaflet.GoogleMutant.js'></script>
+    <link rel="stylesheet" href="mapstyle.css">
+  </head>
+  <body>
+    <div class="scrollmenu">
+      <a id="googleroadmap" href="#googleroadmap">Google Road Map</a>
+      <a id="googletraffic" href="#googletraffic">Google Traffic Map</a>
+      <a id="googletransit" href="#googletransit">Google Transit Map</a>
+      <a id="googlebike" href="#googlebike">Google Bicycling Map</a>
+      <a id="openstreetmap" href="#openstreetmap">OpenStreetMap</a>
+      <a id="cycle" href="#cycle">Cycle Map</a>
+      <a id="transport" href="#transport">Transport Map</a>
+      <a id="landscape" href="#landscape">Landscape Map</a>
+      <a id="satellite" href="#satellite">Satellite Map</a>
+      <a id="aqi" href="#aqi">AQI Layer</a>
+      <a id="removelayer" href="#removelayer">Remove Active Layer</a>
+    </div>
+    <div id="map"></div>
+    <script src="mapscript.js"></script>
+  </body>
+</html>
