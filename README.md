@@ -28,3 +28,7 @@ var config = {
 ```
 
 and replace YOUR_KEY_HERE with the keys obtained by you for Google Maps Javascript API, Mapbox API, Thunderforest API, and the API from Beijing AQI.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
