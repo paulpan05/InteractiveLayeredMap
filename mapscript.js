@@ -13,6 +13,7 @@ var mapFeatureGroup = L.featureGroup([googleRoadmapLayer]);
 var layerFeatureGroup = L.featureGroup();
 mapFeatureGroup.addTo(map);
 layerFeatureGroup.addTo(map);
+L.control.scale({maxWidth: 150}).addTo(map);
 
 var lastInsertedLayer;
 var lastInsertedMapLayer = googleRoadmapLayer;
