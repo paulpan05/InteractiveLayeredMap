@@ -6,7 +6,6 @@ var cycleMapLayer;
 var transportMapLayer;
 var landscapeMapLayer;
 var satelliteMapLayer;
-var googleRoadmapLayer;
 var aqiLayer;
 
 var mapFeatureGroup = L.featureGroup([googleRoadmapLayer]);
